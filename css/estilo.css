@@ -1,0 +1,442 @@
+@charset "UTF-8";
+
+p,
+body,
+textarea {
+
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+body {
+
+    font-size-adjust: 100%;
+    margin: 0px auto 0px auto;
+    background-color: #ffffff;
+
+}
+
+p {
+
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 10px 40px 10px 40px;
+
+}
+
+/*barra de navegação*/
+nav {
+    font-family: montserrat, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #bd894e;
+    text-align: center;
+}
+
+ul li a {
+
+    padding: 0px 40px 0px 40px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+ul li a:hover {
+    color: #060E21;
+    background-color: white;
+}
+
+/*padding*/
+article,
+section,
+main {
+    padding: 10px;
+}
+
+
+
+/*titulos e subtitulos*/
+h1 {
+    padding: 5px;
+    font-size: 60px;
+    font-family: coquette, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 5px;
+    margin-left: 40px;
+}
+
+h2 {
+    padding: 20px;
+    font-size: 40px;
+    font-family: coquette, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 5px;
+    margin-left: 40px;
+}
+
+h3 {
+    padding: 20px;
+    font-size: 20px;
+    font-family: coquette, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 5px;
+    margin-left: 40px;
+}
+
+h4 {
+    font-family: montserrat, sans-serif;
+    font-size: 0.9em;
+}
+
+h5 {
+    font-family: montserrat, sans-serif;
+    font-size: 1.0em;
+}
+
+/*links saiba mais e hoover do aside*/
+.saibamais:link,
+.saibamais:visited {
+    text-decoration: none;
+    color: #bd894e;
+}
+
+.saibamais:hover {
+    background-color: #325767;
+    color: #FFFFFF;
+}
+
+/*aside - obras da lateral*/
+.posicao1 {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+/* aside nas obras 2 em diante para elevar o aside*/
+.posicaoaside {
+    margin-top: -100px;
+    margin-right: 50px;
+
+}
+
+/*obras 1*/
+#obras1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    text-align: center;
+    background-color: beige;
+    margin: 0px auto 0px 40px;
+
+}
+
+
+.obraslateral:link,
+.obraslateral:visited {
+    text-decoration: none;
+    color: #bd894e;
+}
+
+.obraslateral:hover {
+    background-color: #325767;
+    color: #FFFFFF;
+}
+
+/*tabela  - obras1*/
+.tabela1 {
+    display: flex;
+}
+
+table {
+    font-family: montserrat, sans-serif;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+td,
+th,
+tfoot {
+    border: solid 1px #000;
+    padding: 5px;
+}
+
+th {
+    background-color: rgba(50, 87, 103, 0.7);
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.claro {
+    background-color: rgba(234, 218, 218, 0.4);
+}
+
+.escuro {
+    background-color: #eadada;
+}
+
+/*header*/
+header {
+
+    background-color: #78919C;
+}
+
+/*Home*/
+#index1 {
+
+    position: relative;
+    width: 100%;
+
+}
+
+
+.pindex {
+    margin-top: -35px;
+
+}
+
+.pindex1 {
+    background-color: beige;
+    font-size: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: center;
+}
+
+
+#pindex2 {
+    display: flex;
+    margin: 10px 10px 10px 10px;
+    padding-top: 20px;
+
+
+
+}
+
+/*quem somos*/
+#quem {
+    position: relative;
+    display: flex;
+    align-items: stretch;
+    align-content: center;
+
+
+}
+
+#quem1 {
+    background-color: #EDB111;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+
+
+
+}
+
+.quem2 {
+    background-color: #eadada;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20PX;
+    padding: 10px;
+
+}
+
+.quemh1 {
+
+    line-height: 0.8;
+    margin: 10px 10px 40px 20px;
+    text-align: center;
+
+
+}
+
+/*integrantes - quem somos*/
+#integrantes {
+    display: grid;
+    padding-right: 30px;
+    font-family: montserrat, sans-serif;
+}
+
+/*biografia*/
+figcaption {
+    font-family: montserrat, sans-serif;
+}
+
+.faixabio {
+    background-color: #eadada;
+    margin-left: 0px
+}
+
+#bio1 {
+    display: flex;
+}
+
+#bio2 {
+
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.bordabio {
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-color: #eadada;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+/*curiosidades*/
+.imgcurio {
+    display: flex;
+    margin: 30px auto 30px auto;
+
+}
+
+.curio {
+
+    display: flex;
+    text-align: center;
+
+}
+
+.curi1 {
+    background-color: #EDB111;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+.curio1 {
+    background-color: #eadada;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10PX;
+
+
+}
+
+/*footer*/
+footer {
+    background-color: #779B99;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 50px;
+
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer1 {
+    position: absolute;
+    left: 40%;
+    margin-top: 25px;
+    font-family: montserrat, sans-serif;
+}
+
+.footer2 {
+    position: absolute;
+    left: 90%;
+    margin-top: 10px;
+}
+
+/*referencias*/
+.refs {
+    display: grid;
+    margin-right: 450px;
+    font-family: montserrat, sans-serif;
+}
+
+.faixarefs {
+    background-color: #eadada;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+/*contatos*/
+/*forms do contatos*/
+form {
+    font-family: montserrat, sans-serif;
+}
+
+fieldset {
+    width: 700px;
+}
+
+textarea {
+    resize: none;
+}
+
+.formcont {
+    display: flex;
+}
+
+/*imagem contatos*/
+.imgcontato {
+    float: right;
+    margin-top: -140px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+
+}
+
+
+/* obras 2 em diante e da lateral*/
+.posicao {
+    display: flex;
+
+}
+
+.titulo {
+    padding: 10px;
+    font-size: 13px;
+    font-family: montserrat, sans-serif;
+    text-align: center;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 20px;
+    margin-left: 0px;
+    width: 80px
+}
+
+.sinopse {
+    margin-left: 40px;
+    font-size: 17px;
+    margin-right: 450px;
+    font-family: coquette, sans-serif;
+}
+
+.corpotexto {
+    width: 750px;
+    font-family: montserrat, sans-serif;
+
+}

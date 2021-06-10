@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Contato </title>
+    <link rel="stylesheet" href="https://use.typekit.net/xtw0gya.css">
+    <link rel="stylesheet" href="css/estilo.css" type="text/css" />
+</head>
+
+<body>
+
+
+    <header>
+
+
+        <a href="index.html"> <img id="index1" src="images/1200x220.png" alt=" imagem azulada escrito Clarice Lispector - Literatura brasileira e logo do Grupo D no canto esquerdo" width="1200" height="220" /></a>
+
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="quemsomos.html">Quem Somos</a></li>
+            <li><a href="biografia.html">Biografia</a></li>
+            <li><a href="curiosidades.html">Curiosidades</a></li>
+            <li><a href="obras1.html">Obras</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <article>
+
+            <h1>Contato</h1>
+            <p>
+                Deixe aqui suas opiniões, sugestões, informações, reclamações, entre outros.
+            </p>
+
+        </article>
+
+        <!-- No formulario definir um valor fixo pro Fildset para o width (fique à vontade para definir um tamanho), nos elementos   -->
+        <div class="formcont">
+            <form>
+
+                <fieldset>
+                    <legend>Formulário de contato</legend>
+                    <p><label>Nome: <input name="Nome" size="40"></label></p>
+                    <p><label>E-mail: <input type="email" size="40"></label></p>
+                    <p>
+                        <label for="assunto">Assunto: </label>
+                        <select id="assunto" name="assunto">
+                            <option value="1" selected> Selecione </option>
+                            <option value="2"> Sugestões </option>
+                            <option value="3"> Informações </option>
+                            <option value="4"> Reclamações</option>
+                            <option value="5"> Outros
+                            </option>
+                        </select>
+                    </p>
+
+                    <p>Digite a mensagem:</p>
+                    <!-- botar um resize: none; no css, isso sera utilizado para que o usuario não mexa no tamanho da area de texto -->
+                    <p> <textarea rows="10" cols="50" maxlength="500"></textarea></p>
+
+                    <p><button>Enviar</button></p>
+                </fieldset>
+
+            </form>
+            
+            <img class="imgcontato" src="images/imagem_contato_500x485.png" alt="ilustração de um homem sentado em um banco conversando com mulher em pé segurando livro, árvores ao lado completam o cenário" width="500" height="485" />
+
+
+
+        </div>
+
+    </main>
+
+
+    <footer class="footer">
+        <div class="footer1">
+            <small>&copy;2021.Grupo D.Todos os direitos reservados</small>
+        </div>
+        <div class="footer2">
+            <img src="images/youtube_31x31.png" alt=" ícone do Youtube na cor preta" width="31" height="31" />
+
+            <img src="images/pinterest_31x31.png" alt=" ícone do Pinterest na cor preta" width="31" height="31" />
+
+            <img src="images/instagram_31x31.png" alt=" ícone do Instagram na cor preta" width="31" height="31" />
+        </div>
+    </footer>
+</body></html>
